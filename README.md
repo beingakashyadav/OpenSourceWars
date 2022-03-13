@@ -37,3 +37,9 @@ To achieve this, some conditions must be accomplished:
 - [ ] Link to interact with the application. Soon: [https://kanashiro.me](https://kanashiro.me)
 - [x] Github repo.
 - [ ] Smart contract address deployed in testnet.
+
+
+
+
+
+![](/home/akanashiro/Proyectos/Solidity/OpenSourceWars/OSW.png)
