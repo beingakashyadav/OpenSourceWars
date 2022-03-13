@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Open Source Wars</title>
+
+    <link href="css/osw.css" rel="stylesheet">
+    <!-- Bootstrap -->
+  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+       <!-- 
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+   -->
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Open Source Wars</h1>
+        <h3>Last winner: <span id="last-winner">none</span></h3>
+        <table id="contract-info">
+          <tr>
+            <td><strong>Contract: </strong><span id="contract-address">ABC</span></td>
+            <td><strong>Your Address: </strong><span id="playerAccount"></span></td>
+          </tr>
+          <tr>
+            <td><strong>Raised: </strong><span id="recaudado">000</span> ETH</td>
+            <td><strong>Your balance (in Weis): </strong><span id="saldo">0</span> Weis </td>
+          </tr>
+          <tr>
+            <td><strong>Charge LINK here: </strong><span id="link-contract">DEF</span></td>
+            <td><strong>Your LINKs: </strong><span id="links">0</span> LINK</td>
+          </tr>
+        </table>
+        <br/>
+        <inputs><button class="btn" id="btn-collect" type="button">Collect All</button></inputs>               
+      </div> 
+      <div class="wrapper clearfix">
+        <table>
+          <tr>
+            <td>Mis luchadores:&nbsp;</td>
+            <td><select id = "fightersPlayer1"></select></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td><inputs><button class="btn" id="btn-dice1" type ="button">Roll dice</button></inputs></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Mis enemigos:&nbsp;</td>
+            <td><select id = "fightersPlayer2"></select></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td><inputs><button class="btn" id="btn-dice2" type ="button">Your number</button></inputs></td>            
+            <td>&nbsp;&nbsp;<span id="dice-result"></span></td>
+          </tr>
+          <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td><inputs><button class="btn" id="btn-fight" type ="button">Fight!</button></inputs></td>
+            <td></td>
+          </tr>          
+        </table>
+      </div>
+      
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <br/>         
+        </div>
+      </div>
+      <div id="fightersRow" class="row">
+        <!-- PETS LOAD HERE -->
+      </div>
+    </div>
+
+    <div id="fighterTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-fighter">
+          <div class="panel-heading">
+            <h3 class="panel-title" id="0">Scrappy</h3>
+          </div>
+          <div class="panel-body">
+            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 50%;" src="https://animalso.com/wp-content/uploads/2017/01/Golden-Retriever_6.jpg" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Strength:</strong> <span class="fighter-strength" id="0">Linux</span><br/>
+            <strong>Difficulty:</strong> <span class="fighter-difficulty" id="0">3</span><br/>
+            <strong>Price:</strong> <span class="fighter-price" id="0">3</span><br/>
+            <inputs><button class="btn" id="btn-buy" type="button" data-id="0">Buy</button></inputs>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="node_modules/web3/dist/web3.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
