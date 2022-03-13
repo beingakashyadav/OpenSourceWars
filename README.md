@@ -24,22 +24,14 @@ This is an exercise to obtain the certification of Blockchain Academy Chile's "S
 To achieve this, some conditions must be accomplished:
 
 - [x] Security by permissions (must be different permissions for every kind of users)
-
 - [x] Create a function to receive payments in Ether.
-
 - [x] Make us of any external library or inherit from an external contract (eg: OpenZeppelin).
-  
   - [x] *I have used Ownable.sol*
-
 - [x] Deploy contracts in testnet. (Eg: Rinkeby).
-  
   - [x] *I have used Kovan*.
-
 - [x] Connect to an oracle. (Eg: Chainlink)
-  
-  - [x] He usado:
-    
-    - [ ]     - [x] VRFConsumerBase.sol
+  - [x] I have used:    
+    - [x] VRFConsumerBase.sol
     - [x] ConfirmedOwner.sol
 - [ ] Enable a web page in order to interact with the application using Metamask. 
 - [ ] Link to interact with the application. Soon: [https://kanashiro.me](https://kanashiro.me)
