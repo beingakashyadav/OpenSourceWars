@@ -42,4 +42,4 @@ To achieve this, some conditions must be accomplished:
 
 
 
-![](/home/akanashiro/Proyectos/Solidity/OpenSourceWars/OSW.png)
+![imagen](/home/akanashiro/Proyectos/Solidity/OpenSourceWars/OSW.png)
