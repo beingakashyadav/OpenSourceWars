@@ -13,10 +13,10 @@ Se deben cumplir las siguientes condiciones:
   - [x] He usado:
     - [x] VRFConsumerBase.sol
     - [x] ConfirmedOwner.sol
-- [ ] Habilitar una página web pública que nos permita interactuar con la aplicación usando Metamask.
-- [ ] Enlace para interactuar con la aplicación. Pronto en [https://kanashiro.me](https://kanashiro.me)
+- [x] Habilitar una página web pública que nos permita interactuar con la aplicación usando Metamask.
+- [x] Enlace para interactuar con la aplicación. Pronto en [https://kanashiro.me](https://kanashiro.me)
 - [x] Repositorio de la aplicación en Github
-- [ ] Dirección de los contratos inteligentes desplegados en Rinkeby
+- [x] Dirección de los contratos inteligentes desplegados en Rinkeby
 
 ---
 
@@ -33,10 +33,10 @@ To achieve this, some conditions must be accomplished:
   - [x] I have used:    
     - [x] VRFConsumerBase.sol
     - [x] ConfirmedOwner.sol
-- [ ] Enable a web page in order to interact with the application using Metamask. 
-- [ ] Link to interact with the application. Soon: [https://kanashiro.me](https://kanashiro.me)
+- [x Enable a web page in order to interact with the application using Metamask. 
+- [x] Link to interact with the application. Soon: [https://kanashiro.me](https://kanashiro.me)
 - [x] Github repo.
-- [ ] Smart contract address deployed in testnet.
+- [x] Smart contract address deployed in testnet.
 
 
 
